@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 15% auto;
+  background: url(img/clock.png);
+  background-color: #5c5c5c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.second {
+  /* display: none; */
+  position: absolute;
+  height: 120px;
+  width: 1.5px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: black;
+  left: 149.25px;
+  top: 29.9px;
+  transform-origin: bottom;
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+.minute {
+  /* display: none; */
+  position: absolute;
+  height: 95px;
+  width: 1.5px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: black;
+  left: 149.05px;
+  top: 55px;
+  transform-origin: bottom;
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+.hour {
+  /* display: none; */
+  position: absolute;
+  height: 73px;
+  width: 1.5px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: black;
+  left: 149.05px;
+  top: 77px;
+  transform-origin: bottom;
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
